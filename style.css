@@ -1,7 +1,25 @@
+body {
+  margin: 0;
+  padding: 0 10px;
+}
+h1 {
+  margin: 0;
+}
 #grid {
   display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  width: 80vw;
+  aspect-ratio: 1;
   box-sizing: border-box;
+  outline: solid black 1px;
 }
-#grid div {
-  /* individual cells */
+div.row {
+  display: flex;
+  width: 100%;
+}
+/* individual cells */
+div.row div {
+  aspect-ratio: 1;
+  flex-grow: 1;
 }

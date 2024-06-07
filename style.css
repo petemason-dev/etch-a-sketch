@@ -1,0 +1,7 @@
+#grid {
+  display: flex;
+  box-sizing: border-box;
+}
+#grid div {
+  /* individual cells */
+}

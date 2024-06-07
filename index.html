@@ -4,8 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Etch-a-Sketch</title>
-    <script src="eas.js"></script>
+    <script src="eas.js" defer></script>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+  <body>
+    <h1>Etch-a-Sketch</h1>
+    <div class="controls">
+      <label for="numberCells"
+        >Number of squares per side (between 1 & 99):
+        <input type="number" id="numberCells" min="1" max="99" /></label
+      ><button id="create">Create!</button>
+    </div>
+    <div id="grid"></div>
+  </body>
 </html>
